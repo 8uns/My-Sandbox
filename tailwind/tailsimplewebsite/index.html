@@ -13,17 +13,20 @@
 <body>
     <!-- Header -->
     <header class="bg-gray-900 sticky top-0 ">
-        <nav class="text-white container mx-auto py-4 flex justify-between items-center">
+        <nav class="text-white w-11/12 md:container mx-auto py-4 flex justify-between items-center">
             <a href="#" class="font-bold text-3xl"><i class="fa-solid fa-cookie-bite"></i> Tailsimple</a>
 
-            <ul class="flex">
-                <li class="item-nav"><a href="#services">Service</a></li>
-                <li class="item-nav"><a href="#portofolio">Portofolio</a></li>
-                <li class="item-nav"><a href="#about">About</a></li>
-                <li class="item-nav"><a href="#"
-                        class="border-2 border-rose-700 rounded-xl py-2 px-5 hover:bg-rose-700 hover:text-white">Getting
+            <ul class="menu hidden bg-gray-900 md:flex md:relative md:top-0 md:divide-y-0 md:w-auto ">
+                <li class="px-7 py-1 hover:text-gray-500"><a href="#services">Service</a></li>
+                <li class="px-7 py-1 hover:text-gray-500"><a href="#portofolio">Portofolio</a></li>
+                <li class="px-7 py-1 hover:text-gray-500"><a href="#about">About</a></li>
+                <li class="px-7 py-1 hover:text-gray-500"><a href="#"
+                        class="md:border-2 md:border-rose-700 rounded-xl md:py-2 md:px-5 hover:bg-rose-700 hover:text-white">Getting
                         Started</a></li>
             </ul>
+            <button class="hamburger-menu md:hidden text-2xl">
+                 <i class="hamburger-menu-icon fa-solid fa-bars"></i>
+            </button>
         </nav>
     </header>
 
@@ -168,23 +171,25 @@
     </section>
 
     <!-- About -->
-    <section id="about" class="pt-40 pb-20 bg-gray-100">
+    <section id="about" class="pt-40 pb-20 bg-gray-100 ">
         <div class="container mx-auto flex space-x-10 items-start">
             <img src="https://placehold.co/300" alt="" class="">
             <div>
                 <p class="mb-5">Lorem ipsum dolor sit amet.</p>
-                <h3 class="mb-5 text-5xl font-bol">About Tailsimple</h3>
+                <h3 class="mb-5 text-5xl font-bold">About Tailsimple</h3>
                 <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eius deleniti, ut eos tempora non autem, iste natus fuga provident odio dolorem ratione cumque exercitationem quisquam nobis. Minima, voluptates molestias.</p>
                 <p class="mb-5 border-b border-gray-900 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eum tenetur totam? Iste, illo non labore libero laboriosam commodi quo omnis animi exercitationem soluta quod.</p>
-                <ul class="flex space-x-10">
-                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-tiktok"></i></a></li>
-                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-facebook-f"></i></a></li>
-                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-square-instagram"></i></a></li>
-                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                <ul class="flex ">
+                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-tiktok"></i>Tiktok</a></li>
+                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
+                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-square-instagram"></i>Instagram</a></li>
+                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a></li>
                 </ul>
             </div>
         </div>
     </section>
+
+    <script src="./src/script.js"></script>
 </body>
 
 </html>
