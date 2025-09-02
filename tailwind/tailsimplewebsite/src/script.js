@@ -22,7 +22,7 @@ function changeIcon() {
 function displayMenu() {
     if (menu.classList.contains('absolute')) {
         menu.classList.add('hidden')
-
+        
         menu.classList.remove('absolute')
         menu.classList.remove('top-14')
         menu.classList.remove('w-full')
