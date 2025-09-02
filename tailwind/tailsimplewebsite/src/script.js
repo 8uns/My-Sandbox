@@ -18,6 +18,7 @@ function changeIcon() {
         hamburgermenuicon.classList.add('fa-bars')
     }
 }
+
 function displayMenu() {
     if (menu.classList.contains('absolute')) {
         menu.classList.add('hidden')
