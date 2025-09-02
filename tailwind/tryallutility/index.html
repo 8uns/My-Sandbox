@@ -1,48 +1,100 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./src/output.css" />
-    <title>Document</title>
-  </head>
-  <body class="font-serif">
-    <section class="rounded-xl border-4 text-center mt-20 mx-10 px-20 py-5 bg-emerald-900 text-white ">
-      <h1 class="font-bold text-3xl font-sans">
-        Title
-      </h1>
-      <h2 class="font-bold">Sub Title</h2>
-      <p class="font-sans">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-        maiores odio fuga, asperiores itaque, mollitia sit possimus laborum
-        omnis id libero. Ipsam, maiores eveniet fugit id perferendis accusamus
-        ratione incidunt!
-      </p>
-      <p class="text-sm font-sans mt-5">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, rerum
-        facilis? Temporibus magni minima quo illum, aliquam dolores, harum
-        voluptates mollitia nihil non, tempora inventore! Ducimus praesentium
-        nisi veniam eos!
-      </p>
-    </section>
 
-    <section class="text-center mt-20 px-6 bg-purple-500 py-15 px-40">
-      <h1 class="font-bold text-3xl font-sans text-blue-800">
-        Title
-      </h1>
-      <h2 class="font-bold">Sub Title</h2>
-      <p class="font-sans">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
-        maiores odio fuga, asperiores itaque, mollitia sit possimus laborum
-        omnis id libero. Ipsam, maiores eveniet fugit id perferendis accusamus
-        ratione incidunt!
-      </p>
-      <p class="text-sm font-sans mt-5">
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, rerum
-        facilis? Temporibus magni minima quo illum, aliquam dolores, harum
-        voluptates mollitia nihil non, tempora inventore! Ducimus praesentium
-        nisi veniam eos!
-      </p>
-    </section>
-  </body>
+<head>
+  <style type="text/tailwindcss">
+    .portofolio-items {
+      @apply h-40 rounded-lg border-2 border-gray-400 flex justify-center items-center bg-cyan-800; 
+    }
+  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./src/output.css" />
+  <title>Document</title>
+  
+</head>
+
+<body class="font-sans dark:bg-gray-900 dark:text-white">
+
+  <div class="font-extralight text-white font-sans border-indigo-950 bg-indigo-800 border-b-3 md:bg-emerald-700">
+    <div class="flex justify-between container mx-auto py-3">
+      <h1 class="">Testing Flex Tailwindscss</h1>
+      <ul class="flex space-x-10">
+        <li><a href="#">Homes</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Portofolio</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="my-20 font-extralight text-white font-sans border-indigo-950 bg-indigo-800 border-b-3 md:bg-emerald-700">
+    <div class="flex justify-between container mx-auto py-3">
+      <h1 class="">Testing Flex Tailwindscss</h1>
+      <div class="flex space-x-11 bg-amber-500 min-w-96 min-h-28 items-center justify-center">
+        <div><a href="#">Home</a></div>
+        <div><a href="#">About</a></div>
+        <div><a href="#">Portofolio</a></div>
+      </div>
+    </div>
+  </div>
+
+  <section class="my-10 bg-indigo-800 text-white grid grid-cols-3 gap-2 p-2">
+    <div class="bg-red-500">Gambar 1</div>
+    <div class="bg-red-500">Gambar 2</div>
+    <div class="bg-red-500">Gambar 3</div>
+    <div class="bg-red-500">Gambar 4</div>
+    <div class="bg-red-500">Gambar 5</div>
+    <div class="bg-red-500">Gambar 6</div>
+    <div class="bg-red-500">Gambar 7</div>
+    <div class="bg-red-500">Gambar 8</div>
+  </section>
+
+  <h3 class="text-3xl text-center">Porofolio</h3>
+  <div class="w-4/6 my-5 mx-auto grid md:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-2 text-white text-6xl font-bold">
+    <div class="h-40 rounded-lg border-2 border-gray-400 flex justify-center items-center bg-cyan-800">01</div>
+    <div class="h-40 rounded-lg border-2 border-gray-400 flex justify-center items-center bg-cyan-800">02</div>
+    <div class="h-40 rounded-lg border-2 border-gray-400 flex justify-center items-center bg-cyan-800">03</div>
+  </div>
+
+
+  <div
+    class="mx-auto w-1/2 min-h-52 my-10 p-5 border-3 border-gray-200 bg-gray-100 rounded-lg text-justify content-center">
+    <h4 class="text-center pb-3 text-xl font-bold">Hello, I'm testing tailwindcss</h3>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni inventore eius a facilis porro, numquam voluptas
+      incidunt consequatur voluptatum quas illum nesciunt repudiandae nostrum quod odit veniam nihil quam quis.
+  </div>
+
+  <section class="rounded-xl border-4 text-center mt-20 mx-10 px-20 py-5 bg-emerald-900 text-white ">
+    <h1 class="font-bold text-3xl font-sans">
+      Title
+    </h1>
+    <h2 class="font-bold">Sub Title</h2>
+    <p class="font-sans">
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae,
+      maiores odio fuga, asperiores itaque, mollitia sit possimus laborum
+      omnis id libero. Ipsam, maiores eveniet fugit id perferendis accusamus
+      ratione incidunt!
+    </p>
+    <p class="text-sm font-sans mt-5">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, rerum
+      facilis? Temporibus magni minima quo illum, aliquam dolores, harum
+      voluptates mollitia nihil non, tempora inventore! Ducimus praesentium
+      nisi veniam eos!
+    </p>
+  </section>
+
+  <section class="text-center mt-20 px-6 bg-red-600 py-15 px-40">
+    <h1 class="font-bold text-3xl font-sans text-white">
+      Title
+    </h1>
+    <h2 class="font-bold">Sub Title</h2>
+    <p class="text-sm font-sans mt-5">
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet, rerum
+      facilis? Temporibus magni minima quo illum, aliquam dolores, harum
+      voluptates mollitia nihil non, tempora inventore! Ducimus praesentium
+      nisi veniam eos!
+    </p>
+  </section>
+</body>
+
 </html>
