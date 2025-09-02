@@ -1,0 +1,5 @@
+@import "tailwindcss";
+
+.item-nav {
+    @apply px-7 py-1 hover:text-gray-500;
+}
