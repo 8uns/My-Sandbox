@@ -180,9 +180,6 @@
   }
 }
 @layer utilities {
-  .pointer-events-auto {
-    pointer-events: auto;
-  }
   .absolute {
     position: absolute;
   }
@@ -254,9 +251,6 @@
   }
   .border-collapse {
     border-collapse: collapse;
-  }
-  .cursor-alias {
-    cursor: alias;
   }
   .cursor-pointer {
     cursor: pointer;
@@ -524,6 +518,11 @@
   .md\:border-rose-700 {
     @media (width >= 48rem) {
       border-color: var(--color-rose-700);
+    }
+  }
+  .md\:bg-gray-900 {
+    @media (width >= 48rem) {
+      background-color: var(--color-gray-900);
     }
   }
   .md\:px-5 {
