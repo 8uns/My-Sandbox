@@ -5,9 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./src/style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css" integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Tailsimple</title>
-    
+
 </head>
 
 <body>
@@ -25,7 +27,7 @@
                         Started</a></li>
             </ul>
             <button class="hamburger-menu md:hidden text-2xl cursor-pointer">
-                 <i class="hamburger-menu-icon fa-solid fa-bars"></i>
+                <i class="hamburger-menu-icon fa-solid fa-bars"></i>
             </button>
         </nav>
     </header>
@@ -33,23 +35,24 @@
     <!-- Hero -->
     <section class="bg-gray-900">
         <div class="container mx-auto text-center text-white h-screen flex items-center justify-center">
-            <div class="w-2/4">
+            <div class="md:w-2/4 w-3/4">
                 <h3 class="text-5xl font-bold mb-5">Bring your business To The Next Level</h3>
                 <p class="font-light text-gray-400 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     Quaerat illum adipisci saepe facere eius voluptas nemo ullam error? Voluptates laudantium nesciunt
                     odio architecto assumenda mollitia ratione ipsam. Odio, quia deleniti!</p>
-                <a href="#" class="bg-rose-700 text-white py-2 px-5 rounded-xl hover:bg-rose-500">See All Portofolio</a>
+                <a href="#portofolio" class="bg-rose-700 text-white py-2 px-5 rounded-xl hover:bg-rose-500">See All
+                    Portofolio</a>
             </div>
         </div>
     </section>
 
     <!-- Services -->
     <section id="services" class="bg-gray-200 py-30">
-        <div class="container mx-auto">
+        <div class="md:container mx-auto w-11/12">
             <h3 class="text-5xl font-bold text-center mb-5">Our Service</h3>
             <p class="text-gray-500 text-center mb-5">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Eveniet
                 minima unde fuga qui deleniti aliquid molestiae quia impedit modi consequuntur!</p>
-            <div class="grid grid-cols-2 gap-8">
+            <div class="grid md:grid-cols-2 grid-cols-1 gap-8">
                 <!-- service item -->
                 <div class="flex space-x-5 p-8 bg-white rounded-xl items-start">
                     <img src="https://placehold.co/100" alt="" class="">
@@ -99,95 +102,109 @@
 
     <!-- Portofolio -->
     <section id="portofolio" class="py-30 bg-white">
-        <h3 class="text-5xl font-bold mb-5 text-center">Portofolio</h3>
-        <p class="text-gray-500 text-center mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam iste
-            pariatur dolorum accusantium quo vero.
-        </p>
-        <div class="grid grid-cols-4 gap-6 container mx-auto">
-            <!-- portofolio item -->
-            <div class="shadow-xl">
-                <a href="#">
-                    <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    <div class="py-3 px-5">
-                        <h4 class="text-center font-bold">My Website</h4>
-                    </div>
-                </a>
-            </div>
-            <!-- portofolio item -->
-            <div class="shadow-xl">
-                <a href="#">
-                    <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    <div class="py-3 px-5">
-                        <h4 class="text-center font-bold">My Website</h4>
-                    </div>
-                </a>
-            </div>
-            <!-- portofolio item -->
-            <div class="shadow-xl">
-                <a href="#">
-                    <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    <div class="py-3 px-5">
-                        <h4 class="text-center font-bold">My Website</h4>
-                    </div>
-                </a>
-            </div>
-            <!-- portofolio item -->
-            <div class="shadow-xl">
-                <a href="#">
-                    <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    <div class="py-3 px-5">
-                        <h4 class="text-center font-bold">My Website</h4>
-                    </div>
-                </a>
-            </div>
-            <!-- portofolio item -->
-            <div class="shadow-xl">
-                <a href="#">
-                    <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    <div class="py-3 px-5">
-                        <h4 class="text-center font-bold">My Website</h4>
-                    </div>
-                </a>
-            </div>
-            <!-- portofolio item -->
-            <div class="shadow-xl">
-                <a href="#">
-                    <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    <div class="py-3 px-5">
-                        <h4 class="text-center font-bold">My Website</h4>
-                    </div>
-                </a>
-            </div>
-            <!-- portofolio item -->
-            <div class="shadow-xl">
-                <a href="#">
-                    <img src="https://placehold.co/600x400" alt="" class="w-full">
-                    <div class="py-3 px-5">
-                        <h4 class="text-center font-bold">My Website</h4>
-                    </div>
-                </a>
+        <div class="w-11/12 mx-auto">
+            <h3 class="text-5xl font-bold mb-5 text-center">Portofolio</h3>
+            <p class="text-gray-500 text-center mb-5">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam
+                iste
+                pariatur dolorum accusantium quo vero.
+            </p>
+            <div class="grid md:grid-cols-4 grid-cols-2 gap-6 md:container mx-auto">
+                <!-- portofolio item -->
+                <div class="shadow-xl">
+                    <a href="#">
+                        <img src="https://placehold.co/600x400" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h4 class="text-center font-bold">My Website</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- portofolio item -->
+                <div class="shadow-xl">
+                    <a href="#">
+                        <img src="https://placehold.co/600x400" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h4 class="text-center font-bold">My Website</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- portofolio item -->
+                <div class="shadow-xl">
+                    <a href="#">
+                        <img src="https://placehold.co/600x400" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h4 class="text-center font-bold">My Website</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- portofolio item -->
+                <div class="shadow-xl">
+                    <a href="#">
+                        <img src="https://placehold.co/600x400" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h4 class="text-center font-bold">My Website</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- portofolio item -->
+                <div class="shadow-xl">
+                    <a href="#">
+                        <img src="https://placehold.co/600x400" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h4 class="text-center font-bold">My Website</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- portofolio item -->
+                <div class="shadow-xl">
+                    <a href="#">
+                        <img src="https://placehold.co/600x400" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h4 class="text-center font-bold">My Website</h4>
+                        </div>
+                    </a>
+                </div>
+                <!-- portofolio item -->
+                <div class="shadow-xl">
+                    <a href="#">
+                        <img src="https://placehold.co/600x400" alt="" class="w-full">
+                        <div class="py-3 px-5">
+                            <h4 class="text-center font-bold">My Website</h4>
+                        </div>
+                    </a>
+                </div>
             </div>
         </div>
     </section>
 
     <!-- About -->
     <section id="about" class="pt-40 pb-20 bg-gray-100 ">
-        <div class="container mx-auto flex space-x-10 items-start">
-            <img src="https://placehold.co/300" alt="" class="">
+        <div class="container mx-auto flex md:flex-row flex-col space-x-10 md:items-start w-11/12 text-center md:text-start">
+            <img src="https://placehold.co/300" alt="" class="mb-5 mx-auto md:mr-8 md:w-fit w-full">
             <div>
                 <p class="mb-5">Lorem ipsum dolor sit amet.</p>
                 <h3 class="mb-5 text-5xl font-bold">About Tailsimple</h3>
-                <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eius deleniti, ut eos tempora non autem, iste natus fuga provident odio dolorem ratione cumque exercitationem quisquam nobis. Minima, voluptates molestias.</p>
-                <p class="mb-5 border-b border-gray-900 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore eum tenetur totam? Iste, illo non labore libero laboriosam commodi quo omnis animi exercitationem soluta quod.</p>
-                <ul class="flex ">
+                <p class="mb-5">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aut eius deleniti, ut eos
+                    tempora non autem, iste natus fuga provident odio dolorem ratione cumque exercitationem quisquam
+                    nobis. Minima, voluptates molestias.</p>
+                <p class="mb-5 border-b border-gray-900 pb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                    Inventore eum tenetur totam? Iste, illo non labore libero laboriosam commodi quo omnis animi
+                    exercitationem soluta quod.</p>
+                <ul class="flex space-x-5 text-center md:justify-start justify-center  ">
                     <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-tiktok"></i>Tiktok</a></li>
                     <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-facebook-f"></i>Facebook</a></li>
-                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-square-instagram"></i>Instagram</a></li>
-                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a></li>
+                    <li><a href="#" class="hover:text-gray-800"><i
+                                class="fa-brands fa-square-instagram"></i>Instagram</a></li>
+                    <li><a href="#" class="hover:text-gray-800"><i class="fa-brands fa-linkedin-in"></i>LinkedIn</a>
+                    </li>
                 </ul>
             </div>
         </div>
     </section>
+
+    <!-- Footer -->
+     <footer class="py-10 text-center font-bold bg-gray-100">
+        &copy; 2025 Tailsimple | Learning to build simple resposive website
+     </footer>
 
     <script src="./src/script.js"></script>
 </body>
