@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Alex Bennett - Web Developer</title>
+    <link href="data:image/x-icon;base64," rel="icon" type="image/x-icon" />
+    <link rel="stylesheet" href="./src/style.css">
+    <!-- <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script> -->
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap"
+        rel="stylesheet" />
+    <style type="text/tailwindcss">
+        /* :root {
+      --primary-color: #1173d4;
+      --secondary-color: #0e5ea8;
+      --background-color: #1a1a1a;
+      --text-primary: #e0e0e0;
+      --text-secondary: #a0a0a0;
+      --accent-color: #2a84e6;
+    }
+    body {
+      font-family: 'Inter', sans-serif;
+      background-color: var(--background-color);
+      color: var(--text-primary);
+    }
+    .nav-link:hover {
+      color: var(--primary-color);
+    } */
+  </style>
+</head>
+
+<body class="bg-[var(--background-color)] text-[var(--text-primary)]">
+    <div class="relative flex size-full min-h-screen flex-col group/design-root overflow-x-hidden">
+        <div class="layout-container flex h-full grow flex-col">
+            <header
+                class="py-6 px-4 md:px-8 flex justify-between items-center border-b border-[var(--secondary-color)]">
+                <div class="flex items-center gap-3">
+                    <svg class="h-8 w-8 text-[var(--primary-color)]" fill="currentColor" viewBox="0 0 24 24"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5-10-5-10 5z"></path>
+                    </svg>
+                    <h2 class="text-xl font-bold">Alex Bennett</h2>
+                </div>
+                <nav class="hidden md:flex items-center gap-8">
+                    <a class="nav-link text-[var(--text-secondary)] transition-colors duration-200"
+                        href="#projects">Projects</a>
+                    <a class="nav-link text-[var(--text-secondary)] transition-colors duration-200"
+                        href="#skills">Skills</a>
+                    <a class="nav-link text-[var(--text-secondary)] transition-colors duration-200"
+                        href="#contact">Contact</a>
+                </nav>
+            </header>
+            <main class="container mx-auto px-4 py-8 max-w-5xl">
+                <section class="text-center py-16 md:py-24" id="hero">
+                    <h1 class="text-4xl md:text-6xl font-bold mb-4">Alex Bennett</h1>
+                    <p class="text-lg md:text-xl text-[var(--text-secondary)] leading-relaxed max-w-3xl mx-auto">
+                        Crafting digital experiences that inspire and engage.</p>
+                </section>
+                <section class="py-12 md:py-16" id="projects">
+                    <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">Featured Projects</h2>
+                    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                        <div
+                            class="bg-[var(--secondary-color)]/20 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                            <img alt="E-commerce Platform Project Image" class="w-full h-56 object-cover"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuA4IR3VajpKopn5qh_mG7gZ8K7YlIAze2KYSFHH9cybfFtEk3RAB0XMaHQY75rhWcAMrkGmtZe-kWi-8zm2RHGSBrRo64j_05mhMIVNIovngEFEu-7zOhqoMtCr4iRxT-Naos4owhj-Hdvo3zN9oGglPXvInN-C5K567HzwKahHSJYinP1YtiVaw9-IFatgBL-aU1BK5RywC6ER_5M4eZQcGL87eUKTBZ0v8bj6waLqqdcwAtcMH0eMwqjVqZqJF4jHhi9VXuvOFnKu" />
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">E-commerce Platform</h3>
+                                <p class="text-[var(--text-secondary)] text-base">A full-featured e-commerce platform
+                                    with user authentication, product management, and payment integration.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-[var(--secondary-color)]/20 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                            <img alt="Mobile App for Fitness Project Image" class="w-full h-56 object-cover"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuBD1QkwpYLVuoP3om_d3r8xPuG8bP6u92mdYnhy159hgV62XgKGNo9FMsEXiLNXru522ex2w1JonKiIo03fbFHeTg93aAMS0cn5KbooO-dMh-CW3vzY8CU4iKHxlKN0VISDTn9JcbGk7otxzZkz3YwZwAFFr_Mdygw8RCv_oLOp7VieIGurs9HHCckqL8qoDhHAsrGfk-ARWrQIl5xb3tthSoRdm-c2FNcP-hRI4dU2jS4MbK3GzlcKU-RfhqaI_NBa4H-fD0FMEYTE" />
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Mobile App for Fitness</h3>
+                                <p class="text-[var(--text-secondary)] text-base">A mobile application designed to help
+                                    users track their fitness goals and connect with trainers.</p>
+                            </div>
+                        </div>
+                        <div
+                            class="bg-[var(--secondary-color)]/20 rounded-lg overflow-hidden shadow-lg transform hover:scale-105 transition-transform duration-300">
+                            <img alt="Data Visualization Dashboard Project Image" class="w-full h-56 object-cover"
+                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuAhN5_3sL_49Vr2m0uKCEK7SjaWbit8D0Gy1vf39Wl2mLkkz-GedVwyH8ZCQnJwnUk6qn38CZa1OITj1K53uS_jal8-AAVNJzG91sGNhOWvkgxwcOqRTDOmHPj0UUAif1RP_YEVQjooc4jT-mRTh8E7iPtnK0Tqx-AF3LiPItfRqfFMXrqfdhAxOcBnAhlVLuTuiETylwzzDKCAhsaeNWE4qRPEsk0qF7VWDf-d3o3Se2ze2w3CiD7eJaf_HHuJlXvFE1Sg18ORoSeQ" />
+                            <div class="p-6">
+                                <h3 class="text-xl font-semibold mb-2">Data Visualization Dashboard</h3>
+                                <p class="text-[var(--text-secondary)] text-base">An interactive dashboard for
+                                    visualizing complex datasets with real-time updates.</p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-12 md:py-16" id="skills">
+                    <h2 class="text-3xl md:text-4xl font-semibold text-center mb-12">My Skills</h2>
+                    <div class="flex flex-wrap gap-8 justify-center items-center">
+                        <div class="flex flex-col items-center gap-2 text-center p-4">
+                            <svg class="text-5xl text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-200"
+                                fill="currentColor" height="48" viewBox="0 0 256 256" width="48"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M69.12,94.15,28.5,128l40.62,33.85a8,8,0,1,1-10.24,12.29l-48-40a8,8,0,0,1,0-12.29l48-40a8,8,0,0,1,10.24,12.3Zm176,27.7-48-40a8,8,0,1,0-10.24,12.3L227.5,128l-40.62,33.85a8,8,0,1,0,10.24,12.29l48-40a8,8,0,0,0,0-12.29ZM162.73,32.48a8,8,0,0,0-10.25,4.79l-64,176a8,8,0,0,0,4.79,10.26A8.14,8.14,0,0,0,96,224a8,8,0,0,0,7.52-5.27l64-176A8,8,0,0,0,162.73,32.48Z">
+                                </path>
+                            </svg>
+                            <p class="font-medium">Frontend</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 text-center p-4">
+                            <svg class="text-5xl text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-200"
+                                fill="currentColor" height="48" viewBox="0 0 256 256" width="48"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M128,24C74.17,24,32,48.6,32,80v96c0,31.4,42.17,56,96,56s96-24.6,96-56V80C224,48.6,181.83,24,128,24Zm80,104c0,9.62-7.88,19.43-21.61,26.92C170.93,163.35,150.19,168,128,168s-42.93-4.65-58.39-13.08C55.88,147.43,48,137.62,48,128V111.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64ZM69.61,53.08C85.07,44.65,105.81,40,128,40s42.93,4.65,58.39,13.08C200.12,60.57,208,70.38,208,80s-7.88,19.43-21.61,26.92C170.93,115.35,150.19,120,128,120s-42.93-4.65-58.39-13.08C55.88,99.43,48,89.62,48,80S55.88,60.57,69.61,53.08ZM186.39,202.92C170.93,211.35,150.19,216,128,216s-42.93-4.65-58.39-13.08C55.88,195.43,48,185.62,48,176V159.36c17.06,15,46.23,24.64,80,24.64s62.94-9.68,80-24.64V176C208,185.62,200.12,195.43,186.39,202.92Z">
+                                </path>
+                            </svg>
+                            <p class="font-medium">Backend</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 text-center p-4">
+                            <svg class="text-5xl text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-200"
+                                fill="currentColor" height="48" viewBox="0 0 256 256" width="48"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M160,40A88.09,88.09,0,0,0,81.29,88.67,64,64,0,1,0,72,216h88a88,88,0,0,0,0-176Zm0,160H72a48,48,0,0,1,0-96c1.1,0,2.2,0,3.29.11A88,88,0,0,0,72,128a8,8,0,0,0,16,0,72,72,0,1,1,72,72Z">
+                                </path>
+                            </svg>
+                            <p class="font-medium">Cloud</p>
+                        </div>
+                        <div class="flex flex-col items-center gap-2 text-center p-4">
+                            <svg class="text-5xl text-[var(--text-secondary)] hover:text-[var(--primary-color)] transition-colors duration-200"
+                                fill="currentColor" height="48" viewBox="0 0 256 256" width="48"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M128,24A104,104,0,1,0,232,128,104.11,104.11,0,0,0,128,24Zm87.65,96.18Q211.83,120,208,120a168.58,168.58,0,0,0-43.94,5.84A166.52,166.52,0,0,0,150.61,96a168.32,168.32,0,0,0,38.2-31.55A87.78,87.78,0,0,1,215.65,120.18ZM176.28,54.46A151.75,151.75,0,0,1,142,82.52a169.22,169.22,0,0,0-38.63-39,88,88,0,0,1,73,10.94ZM85.65,50.88a153.13,153.13,0,0,1,42,39.18A151.82,151.82,0,0,1,64,104a154.19,154.19,0,0,1-20.28-1.35A88.39,88.39,0,0,1,85.65,50.88ZM40,128a87.73,87.73,0,0,1,.53-9.64A168.85,168.85,0,0,0,64,120a167.84,167.84,0,0,0,72.52-16.4,150.82,150.82,0,0,1,12.31,27.13,167.11,167.11,0,0,0-24.59,11.6,169.22,169.22,0,0,0-55.07,51.06A87.8,87.8,0,0,1,40,128Zm42,75a152.91,152.91,0,0,1,50.24-46.79,148.81,148.81,0,0,1,20.95-10,152.48,152.48,0,0,1,3.73,33.47,152.93,152.93,0,0,1-3.49,32.56A87.92,87.92,0,0,1,82,203Zm89.06,1.73a170,170,0,0,0,1.86-25,168.69,168.69,0,0,0-4.45-38.47A152.31,152.31,0,0,1,208,136q3.8,0,7.61.19A88.13,88.13,0,0,1,171.06,204.72Z">
+                                </path>
+                            </svg>
+                            <p class="font-medium">UI/UX Design</p>
+                        </div>
+                    </div>
+                </section>
+                <section class="py-12 md:py-16 text-center" id="contact">
+                    <h2 class="text-3xl md:text-4xl font-semibold mb-8">Get In Touch</h2>
+                    <p class="text-lg text-[var(--text-secondary)] mb-8 max-w-2xl mx-auto">I'm always open to discussing
+                        new projects, creative ideas or opportunities to be part of your visions.</p>
+                    <div class="flex justify-center gap-4">
+                        <a class="bg-[var(--primary-color)] text-white px-8 py-3 rounded-md hover:bg-[var(--accent-color)] transition-colors duration-300 ease-in-out"
+                            href="mailto:alex.bennett@example.com">Email Me</a>
+                        <a class="bg-transparent border border-[var(--primary-color)] text-[var(--primary-color)] px-8 py-3 rounded-md hover:bg-[var(--primary-color)] hover:text-white transition-colors duration-300 ease-in-out"
+                            href="#">LinkedIn</a>
+                    </div>
+                </section>
+            </main>
+            <footer class="text-center py-8 border-t border-[var(--secondary-color)]">
+                <p class="text-[var(--text-secondary)]">© 2024 Alex Bennett. All rights reserved.</p>
+            </footer>
+        </div>
+    </div>
+
+</body>
+
+</html>
