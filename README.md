@@ -14,14 +14,27 @@ Setiap folder atau file di sini bisa berisi snippet kode, mini project, maupun k
 ---
 
 ## 🛠️ Teknologi & Bahasa
-Beberapa bahasa dan tools yang sering digunakan di sandbox ini:
-- 🐘 PHP
-- 🐍 Python
-- ⚡ JavaScript
-- 🖥️ C / C++
-- ☕ Java
-- Dan bahasa lain sesuai kebutuhan eksperimen.
+Beberapa bahasa dan tools yang sering dan akan digunakan di sandbox ini:
+- 🐘 **PHP**  
+- 🎨 **CSS** & **TailwindCSS**  
+- ⚡ **JavaScript** (vanilla & framework frontend/backend)  
+- 🐍 **Python**  
+- 🎯 **Dart** (Flutter & eksperimen lainnya)  
+- 🔧 Framework frontend & backend (eksperimen berbagai macam)  
+- Dan lain-lain sesuai kebutuhan eksplorasi 🚀 
 
 ---
 
-## 📂 Struktur
+## ⚠️ Catatan
+- Kode di dalam repo ini **tidak selalu production-ready**.  
+- Fokus utama adalah **belajar & eksperimen**.  
+- Gunakan dengan bijak, bisa jadi banyak bug atau unfinished code 😅.
+
+---
+
+## 👨‍💻 Author
+**Rafli J Kasim (J)**  
+
+---
+
+⭐ Jika repo ini bermanfaat atau menarik, boleh kasih star ya!  
