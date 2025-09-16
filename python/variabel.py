@@ -9,11 +9,31 @@ salah = False
 umur = 28
 tinggi = 164.5
 tahun_lahir = 1997
-suhu = -30
+suhu = -30.5
 nol = 0
 
 # menampilkan data
-print('type bilangan desimal: ', type(tinggi))
-print('type bilangan bulat: ', type(umur))
-print('type string: ', type(kata))
-print('type boolean: ', type(benar))
+# print(type(suhu))
+# print('type bilangan desimal: ', type(tinggi))
+# print('type bilangan bulat: ', type(umur))
+# print('type string: ', type(kata))
+# print('type boolean: ', type(benar))
+
+
+kalimat = """
+mencoba petik tiga
+pada variabel bertipe
+string
+"""
+
+# print(kalimat)
+
+
+# Multple assigment
+x = y = z = 4
+total = x + y + z
+
+a, b, c = 1, 2, 3
+name, age = 'Buns', 28
+
+print(age)
